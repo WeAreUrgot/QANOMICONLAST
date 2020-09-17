@@ -14,7 +14,7 @@ public class apiTest extends BaseTestApi {
 
     @Test
     public void addMilestone() {
-        String endpoint = "index.php?/api/v2/add_milestone/41";
+        String endpoint = "index.php?/api/v2/add_milestone/53";
 
         MilestonesApi project = new MilestonesApi.Builder()
                 .withName("Ivanton")
